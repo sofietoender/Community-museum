@@ -395,12 +395,7 @@ header {
     display: flex;
     justify-content: center;
 }
-footer {
-    background:#000000;
-    height:100%;
-    color: #ffffff;
-    
-}
+
 
 @media screen and (min-width: 481px) {
     .hero-text {
@@ -478,9 +473,7 @@ footer {
         display:flex;
         flex-direction: row;
         margin-top: 20px;
-        
-        
-        
+      
     }
 
     * {

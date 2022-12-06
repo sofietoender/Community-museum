@@ -106,7 +106,8 @@ html {
 
 .mobilemenu3 {
     margin-left: 10px;
-    border-radius: 10px;
+   
+  
 
 }
    
@@ -139,6 +140,7 @@ html {
     display:block;
     z-index: auto;
     background:var(--darkblue);
+    position: absolute;
 
    }
 
@@ -154,10 +156,16 @@ html {
 
    #menu-checkbox3:checked ~ .mobilemenu3 {
     display:block;
-    z-index: auto;
-    background:var(--lightblue);
+    /* z-index: auto; */
+    background:var(--darkblue);
+    position: absolute;
+    width: fit-content;
+    color:aliceblue;
+    font-size: 2em;
 
    }
+
+  
 
 .åpningstider-styling {
     display:flex;
