@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+    
+    box-sizing: border-box;
+    
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+    margin:0;
+   
+    
+   }
+
+   :root {
+    --main-font:'Ubuntu', sans-serif;
+    --second-font:'roboto', sans-serif;
+    --third-font: 'shrimp', sans-serif;
+    --darkblue: #005F73;
+    --lightblue:#0A9396;
+    --greenblue:#94D2BD;
+    --yellow: #E9D8A6;
+
+}
+   
+
+   body {
+    height: 100%;
+    margin:0px;
+   }
+
+   h1 {
+    font-family: shrimp;
+   }
+
+   h2 {
+    font-family: shrimp;
+   }
+
+   
+
+
+
+header {
+    background: linear-gradient(
+        to right, 
+        #ffffff 0%, 
+        #ffffff 50%, 
+        #94D2BD 50%, 
+        #94D2BD 100%
+      );
+
+      display:flex;
+      justify-content: space-between;
+}
+
+.mobilemenu,#menu-checkbox {
+    display:none;
+
+   }
+   
+
+   .fas fa-bars  {
+    position: absolute;
+    right: 20px;
+    top:15px;
+   }
+
+  
+
+
+   .menu-checkbox {
+    position: absolute;
+    right: 40px;
+    
+   }
+
+   
+
+   #menu-checkbox:checked ~ .mobilemenu {
+    display:block;
+    z-index: auto;
+    background:var(--greenblue);
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    right:0;
+
+   }
+
+   .mobilemenu a {
+    display:block;
+    text-align: center;
+    font-family: var(--second-font);
+    text-decoration: none;
+    color:black;
+    margin:30px;
+   }
+
+
+   .logo {
+    font-family: shrimp;
+    font-size:0.6em;
+    width: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.1;
+    
+   }
