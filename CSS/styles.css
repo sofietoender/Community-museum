@@ -428,6 +428,8 @@ html {
         margin-left: 70px;
         margin-right: 70px;
         margin-top:80px;
+        animation: bounce;
+        animation-duration: 2s;
        
 
     }
@@ -457,6 +459,7 @@ html {
     align-items: center;
     margin-left: 50px;
     margin-top: 80px;
+
    }
 
    .hero-text {
