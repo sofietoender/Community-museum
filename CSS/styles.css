@@ -56,13 +56,14 @@ html {
      background: rgb(0,95,115);
     background: linear-gradient(180deg, rgba(0,95,115,1) 0%, rgba(10,147,150,1) 81%);
       margin-bottom: 3em; 
-      position: relative;
-    z-index:-1;
+      
    }
 
+  
    .herosection {
     display:flex;
     justify-content: space-between;
+  
     
     
    }
@@ -83,18 +84,19 @@ html {
    }
 
    .hero-image-vr {
-    width: 80%;
+    width: 400px;
     padding-right: 10px;
     padding-left: 30px;
-    min-width: 123px;
-    min-height: 140px;
+   min-height: 140px;
+   
+    
     
    }
 
    .herotext-button {
     padding-left: 30px;
     padding-top:30px;
-    width: 200px;
+    
    }
 
    .button-hero {
@@ -262,6 +264,7 @@ html {
    
 }
 
+
 .outside-museum {
     width: 100%;
 }
@@ -405,6 +408,16 @@ html {
         display: flex;
         justify-content: flex-end;
         margin-right: 30px; }  
+
+        .hero-image-vr {
+            width: 900px;
+            padding-right: 100px;
+            
+           min-height: 140px;
+           
+            
+            
+           }
 
 }
 
