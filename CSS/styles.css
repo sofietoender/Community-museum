@@ -41,81 +41,6 @@ html {
    h2 {
     font-family: shrimp;
    }
-
-   
-
-
-
-header {
-    background: linear-gradient(
-        to right, 
-        #ffffff 0%, 
-        #ffffff 50%, 
-        #94D2BD 50%, 
-        #94D2BD 100%
-      );
-
-      display:flex;
-      justify-content: space-between;
-}
-
-.mobilemenu,#menu-checkbox {
-    display:none;
-
-   }
-   
-
-   i  {
-    position: absolute;
-    right: 20px;
-    top:15px;
-   }
-
-  
-
-
-   .menu-checkbox {
-    position: absolute;
-    right: 40px;
-    
-   }
-
-   
-
-   #menu-checkbox:checked ~ .mobilemenu {
-    display:block;
-    z-index: auto;
-    background:var(--greenblue);
-    text-align: center;
-    margin-top: 30px;
-    position: absolute;
-    right:0;
-
-   }
-
-   .mobilemenu a {
-    display:block;
-    text-align: center;
-    font-family: var(--second-font);
-    text-decoration: none;
-    color:black;
-    margin:30px;
-   }
-
-
-   .logo {
-    font-family: shrimp;
-    font-size:0.6em;
-    width: 80px;
-    padding-left: 20px;
-    padding-top: 20px;
-    line-height: 1.1;
-    text-decoration: none;
-    
-   }
-
- 
-
   main {
     background: linear-gradient(
         to right, 
@@ -412,13 +337,6 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-    .logo {
-       
-        font-size:0.9em;
-        transition: 0.2s ease-in;
-        
-        
-       }
     .special-events {
         display: flex;
         flex-direction: row;
