@@ -127,10 +127,15 @@ html {
     line-height: 1.3;
    }
 
+   .special-events-text {
+    margin-left: 10px;
+   }
+
  .section-card-night {
     background: black;
     padding-bottom: 50px;
  }
+    
 
 .night-museum {
    
@@ -414,11 +419,58 @@ html {
             padding-right: 100px;
             
            min-height: 140px;
-           
-            
-            
+        
            }
 
+
+    .special-events {
+        gap: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top:80px;
+       
+
+    }
+
+    .section-card-night {
+        border-radius: 10px;
+}
+
+.section-card-proffessor {
+    border-radius: 10px;
+}
+.section-card-turbin {
+    border-radius: 10px;
+    
+}
+
+.special-events-text {
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 3em;
+   } 
+
+   .herotext-button {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 80px;
+   }
+
+   .hero-text {
+    font-size: 3em;
+   }
+
+   .button-hero {
+    border: 4px solid #ffffff;
+    background: none;
+    color:#FFFFFF;
+    font-size: 1em;
+    padding: 15px;
+    margin-top:30px;
+   }
 }
 
 

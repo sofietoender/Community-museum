@@ -39,9 +39,9 @@
     margin:30px;
     font-size: 0.8em;
     line-height: 1.5;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 
 
 .section-card-cosmology {
@@ -246,14 +246,11 @@
     margin-top:40px;
        } 
 
-      
-
+       .section-card-robotai:hover {
+        display:
     
     }
 
-    .hello {
-        font-size: 10em;
-
-    }
+    
        
     
