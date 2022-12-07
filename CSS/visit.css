@@ -1,4 +1,5 @@
 @import "css/styles.css";
+
 html {
     height: 100%;
     
@@ -13,6 +14,7 @@ html {
    *::after {
     box-sizing: inherit;
     margin:0;
+    overflow-x: hidden;
     
    
     
@@ -35,6 +37,13 @@ html {
     margin:0px;
    }
 
+   header {
+    background: var(--lightblue);
+    padding:30px;
+   }
+
+  
+
 
    h1 {
     font-family: shrimp;
@@ -45,7 +54,7 @@ html {
    }
    .astronaut-img {
     width:100%;
-    margin:30px 0px;
+    margin:0px 30px 0px 0px;
     opacity: 90%;
     position: relative;
     z-index: -1;
@@ -82,9 +91,6 @@ html {
     display:none;
 
    }
-
-   
-
 .menu-checkbox1 {
     
    
@@ -100,34 +106,20 @@ html {
 .mobilemenu2 {
     margin-left: 10px;
     border-radius: 10px;
-    
 
 }
 
 .mobilemenu3 {
-    margin-left: 10px;
-   
-  
-
+    margin-left: 10px;   
 }
-   
 
-   #menu-checkbox1:checked ~ .mobilemenu1 {
-    display:block;
-    z-index: auto;
-    margin-bottom: 30px;    
+#menu-checkbox1:checked ~ .mobilemenu1 {
+display:block;
+z-index: auto;
+margin-bottom: 30px;    
    }
 
-   .mobilemenu a {
-    display:block;
-    text-align: center;
-    font-family: var(--second-font);
-    text-decoration: none;
-    color:black;
-    
-   }
-
-   .mobilemenu2,#menu-checkbox2 {
+.mobilemenu2,#menu-checkbox2 {
     display:none;
 
    }
@@ -140,7 +132,7 @@ html {
     display:block;
     z-index: auto;
     background:var(--darkblue);
-    position: absolute;
+    
 
    }
 
@@ -156,9 +148,8 @@ html {
 
    #menu-checkbox3:checked ~ .mobilemenu3 {
     display:block;
-    /* z-index: auto; */
-    background:var(--darkblue);
-    position: absolute;
+    z-index: auto;
+    background:var(--darkblue);  
     width: fit-content;
     color:aliceblue;
     font-size: 2em;
@@ -207,7 +198,11 @@ width: 100%;
 }
 
 .åpningstider-styling3 {
-background:linear-gradient(90deg, rgba(148,210,189,1) 0%, rgba(10,147,150,1) 81%);
+
+    background:none;
+    border: 2px solid var(--darkblue);
+    border-radius: 3px;
+/* background:linear-gradient(90deg, rgba(148,210,189,1) 0%, rgba(10,147,150,1) 81%); */
 
 }
 

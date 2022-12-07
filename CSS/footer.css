@@ -1,4 +1,24 @@
-:root {
+
+html {
+    height: 100%;
+    
+    box-sizing: border-box;
+    
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+    margin:0;
+    overflow-x: hidden;
+   
+    
+   }
+
+   :root {
     --main-font:'Ubuntu', sans-serif;
     --second-font:'roboto', sans-serif;
     --third-font: 'shrimp', sans-serif;
@@ -6,14 +26,19 @@
     --lightblue:#0A9396;
     --greenblue:#94D2BD;
     --yellow: #E9D8A6;
+
 }
+   body {
+    height: 100%;
+    margin:0px;
+   }
+
 
 footer {
 font-family:var(--second-font);
 background:#231F20;
 padding-top: 30px;
 margin-top:60px;
-position:relative;
 }
 
 h3 {
