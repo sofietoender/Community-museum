@@ -8,8 +8,47 @@
     --yellow: #E9D8A6;
 
 }
+@media screen and (min-width: 768px) {
+
+.special-events img {
+    width: 400px;
+    border-radius:30px;
+    
+}
+
+
+.section-exhibtion {
+    display:flex;
+    flex-direction: row;
+    margin: 200px 100px;
+    gap:90px;
+    justify-content: center;
+    
+}
+
+.card-exibiton-info {
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    background: var(--greenblue);
+    border-radius: 30px;
+    padding:40px;
+    grid-area: "exhibiton-card";
+    gap:10px;
+}
+
+}
+
+
+
+
+
+/* .special-events {
+    display:flex;
+    flex-wrap:wrap;
+}
 .section-biology-medicine {
-    background:var(--greenblue);
+    background
     padding-bottom: 50px;
  }
 
@@ -19,17 +58,23 @@
     flex-direction: column;
     align-items: center;
     
+}
 
-   }
+.card-desktop {
+    background: var(--greenblue);
+    border-radius: 30px;
+    
+}
 
    .biology-medicine-img {
-    margin-top:40px;
-    width: 50%;
-    clip-path: circle();
+
+    width:100%;
+  
+   
 }
 
 .biology-medicine-heading {
-    color:#000000;
+    color:var(--lightblue);
     margin:15px 20px 0px 20px;
 }
 
@@ -40,12 +85,13 @@
     font-size: 0.8em;
     line-height: 1.5;
     text-align: center;  
+    
+    
 }
 
 
 
 .section-card-cosmology {
-    background: var(--lightblue);
     padding-bottom: 50px;
  }
 
@@ -60,9 +106,9 @@
    }
 
    .cosmology-img{
-    margin-top:40px;
-    width: 100%;
-    clip-path: circle();
+   border-radius: 30px;
+   
+    
    }
 
 .cosmology-heading {
@@ -91,7 +137,7 @@
 }
 
 .section-card-robotai{
-    background: var(--yellow);
+   
     padding-bottom: 50px;
  }
  
@@ -106,8 +152,8 @@
 
 .robotai-museum-img{
     margin-top:40px;
-    width: 50%;
-    clip-path: circle();
+  border-radius: 30px;
+   
 }
 
 .robotai-museum-heading{
@@ -126,7 +172,7 @@
 }
 
 .section-card-ecology{
-    background: var(--yellow);
+   
     padding-bottom: 50px;
  }
  
@@ -141,8 +187,8 @@
 
 .ecology-museum-img{
     margin-top:40px;
-    width: 50%;
-    clip-path: circle();
+    border-radius: 30px;
+
 }
 
 .ecology-museum-heading{
@@ -158,14 +204,13 @@
     font-size: 0.8em;
     line-height: 1.5;
     text-align: center;
-}
+} */
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .special-events {
            display: flex;
            flex-direction: column;
-           width: ;
            justify-content: space-between;
            gap:20px;
            margin:20px;
@@ -182,25 +227,40 @@
        .card-desktop {
         display:flex;
         flex-direction: column;
-        justify-content: center
-       }
+        
+        background: var(--greenblue);
+        border-radius: 30px;
+            
+        }
+        
+       
 
        .biology-medicine {
         display:flex;
         flex-direction: row;
-        justify-content: center;
+        
         gap:30px;
+        
 
        }
 
+       .biology-medicine-img {
+        border-radius: 30px;
+        width:100%;
+      
+       
+    }
+
        .biology-medicine-text {
-        width:500px;
-        font-size: 1.6em;
+        margin-top:0px;
+        width:600px;
+        font-size: 1em;
+        
        }
 
        .cosmology-text {
         width:500px;
-        font-size: 1.6em;
+        font-size: 1em;
        }
 
        .cosmology {
@@ -223,12 +283,12 @@
 
        .robotai-museum-text {
         width:500px;
-        font-size: 1.6em;
+        font-size: 0.8em;
        }
 
        .ecology-museum-text {
         width:500px;
-        font-size: 1.6em;
+        font-size: 1em;
        }
 
        .ecology-museum {
@@ -242,7 +302,7 @@
 
        .special-events h2{
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     margin-top:40px;
        } 
 
@@ -251,6 +311,11 @@
     
     }
 
-    
-       
-    
+    i {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 10px 0px;
+        animation: ;
+    } */
+
+   

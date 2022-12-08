@@ -83,6 +83,7 @@ html {
     text-align: center;
     text-transform:uppercase;
     font-size: 3em;
+    
 
    }
    
@@ -242,8 +243,13 @@ width: 100%;
 }
 
 
+@media screen and (min-width: 768px) {
+.astronaut-img {
+    height:700px;
+   
 
-
+}
+}
 
 
   
