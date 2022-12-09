@@ -1,7 +1,6 @@
 :root {
     --main-font:'Ubuntu', sans-serif;
     --second-font:'roboto', sans-serif;
-    --third-font: 'shrimp', sans-serif;
     --darkblue: #005F73;
     --lightblue:#0A9396;
     --greenblue:#94D2BD;
@@ -67,6 +66,10 @@ i {
     padding:40px;
     gap:10px;
     margin:0;
+}
+
+h2 {
+    font-family: var(--main-font);
 }
 
 
