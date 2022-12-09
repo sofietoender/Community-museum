@@ -45,11 +45,11 @@ html {
 
 
    h1 {
-    font-family: shrimp;
+    font-family: var(--main-font);
    }
 
    h2 {
-    font-family: shrimp;
+    font-family: var(--second-font);
    }
    .astronaut-img {
     width:100%;

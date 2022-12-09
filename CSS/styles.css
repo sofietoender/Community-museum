@@ -193,21 +193,21 @@ html {
     display:flex;
     flex-direction: column;
     align-items: center;
-    
-    
 
    }
 
    .visit-professor-img{
-    margin-top:40px;
-    width: 100%;
+    margin-top:100px;
+    width: 70%;
     clip-path: circle();
    }
 
 .professor-visit-heading {
-    margin:20px 20px 0px 20px;
+    margin:40px 20px 0px 20px;
     width: auto;
     text-align: center;
+    text-transform: uppercase;
+    color:#ffffff;
     
 }
 						
@@ -253,6 +253,7 @@ html {
     color:#000000;
     margin:15px 20px 0px 20px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .energica-museum-text{

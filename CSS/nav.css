@@ -19,7 +19,7 @@ html {
    :root {
     --main-font:'Ubuntu', sans-serif;
     --second-font:'roboto', sans-serif;
-    --third-font: 'shrimp', sans-serif;
+
     --darkblue: #005F73;
     --lightblue:#0A9396;
     --greenblue:#94D2BD;
@@ -34,11 +34,11 @@ html {
    }
 
    h1 {
-    font-family: shrimp;
+    font-family: var(--main-font);
    }
 
    h2 {
-    font-family: shrimp;
+    font-family: var(--main-font);
    }
 
    header {
@@ -104,13 +104,14 @@ html {
 
 
    .logo {
-    font-family: shrimp;
-    font-size:0.6em;
-    width: 80px;
+    font-family: var(--main-font);
+    font-size:1em;
+    width: 90px;
     padding-left: 20px;
     padding-top: 20px;
     line-height: 1.1;
     text-decoration: none;
+    font-weight: bolder;
     
    }
 
