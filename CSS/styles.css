@@ -212,7 +212,7 @@ html {
 }
 						
 .professor-visit-text{
-    color:white;
+    color:#000000;
     font-family:var(--second-font);
     margin:30px;
     font-size: 0.8em;
