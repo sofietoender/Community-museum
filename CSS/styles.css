@@ -39,7 +39,7 @@ html {
    }
 
    h2 {
-    font-family: var(--main-font);
+    font-family: var(--second-font);
    }
 
   main {
@@ -71,6 +71,7 @@ html {
     font-family: var(--main-font);
     font-size: 1.5em;
     transition: 0.9s ease-out;
+    color: #FFFFFF;
 
     
    }
@@ -99,7 +100,7 @@ html {
    }
 
    .button-hero {
-    background:linear-gradient(90deg, rgba(148,210,189,1) 0%, rgba(10,147,150,1) 81%);
+    color:white;
     border:none;
     padding:10px 12px 10px 12px;
     font-family: var(--second-font);
@@ -154,6 +155,7 @@ html {
 .night-museum-heading {
     color:var(--yellow);
     margin:15px 20px 0px 20px;
+    font-family: var(--second-font);
 }
 
 .night-museum-text {
@@ -207,7 +209,8 @@ html {
     width: auto;
     text-align: center;
     text-transform: uppercase;
-    color:#ffffff;
+    color:#000000;
+    
     
 }
 						
@@ -218,12 +221,13 @@ html {
     font-size: 0.8em;
     line-height: 1.5;
     text-align: center;
+    
 }
 
-.professor-visit-botton {
-    background:#000000;
-   border: solid 2px var(--yellow);
-   color:#ffffff;
+.professor-museum-botton {
+    background: var(--lightblue);
+   border: solid 2px #000000;
+   color:#000000;
    border-radius: 10px;
    padding:9px;
    
@@ -266,8 +270,14 @@ html {
 }
 
 .energica-museum-botton {
-   
-}
+        background:var(--yellow);
+        border: solid 2px #000000;
+        color:#000000;
+        border-radius: 10px;
+        padding:9px;
+      
+     }
+
 
 
 .outside-museum {
@@ -467,13 +477,32 @@ html {
    }
 
    .button-hero {
-    border: 4px solid #ffffff;
-    background: none;
-    color:#FFFFFF;
+   
+    background: #FFFFFF;
     font-size: 1em;
-    padding: 15px;
+    padding: 20px;
     margin-top:30px;
    }
+   
+   .section-button {
+    transition: all .2s ease-in-out; 
+
+   }
+
+   .section-button:hover {
+    transform: scale(1.1); 
+
+   }
+
+   .night-museum {
+    transition: all .2s ease-in-out; 
+   }
+
+   .night-museum:hover {
+    transform: scale(1.1); 
+   }
+
+   
 }
 
 

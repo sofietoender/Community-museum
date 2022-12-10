@@ -1,0 +1,46 @@
+:root {
+    --main-font:'Ubuntu', sans-serif;
+    --second-font:'roboto', sans-serif;
+    --darkblue: #005F73;
+    --lightblue:#0A9396;
+    --greenblue:#94D2BD;
+    --yellow: #E9D8A6;
+
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+    margin:0; 
+}
+
+body {
+    height: 100%;
+    margin:0px;
+   }
+
+* {
+    font-family: var(--second-font);
+}
+
+.kids-section {
+   background:linear-gradient(180deg, rgba(0,95,115,1) 0%, rgba(10,147,150,1) 81%);
+   height:500px;
+   margin-top:40px;
+   
+}
+
+
+
+

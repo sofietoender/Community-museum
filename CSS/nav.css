@@ -57,7 +57,7 @@ html {
 }
 
 .logo:visited {
-    color:black;
+    color: #FFFFFF;
 }
 
 .desktop-nav {
@@ -73,6 +73,7 @@ html {
     position: absolute;
     right: 20px;
     top:15px;
+    color:white;
    }
 
    .menu-checkbox {
@@ -109,6 +110,7 @@ html {
     width: 90px;
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 1.1;
     text-decoration: none;
     font-weight: bolder;
@@ -138,6 +140,7 @@ html {
          color: #ffffff;
          text-decoration: none;
          margin-left: 30px;
+         font-size: 1.5em;
        }
        
        nav a:hover {

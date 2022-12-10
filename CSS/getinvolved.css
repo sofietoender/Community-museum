@@ -28,7 +28,6 @@ html {
 body {
     height: 100%;
     margin:0px;
-    
    }
 
 * {
@@ -43,13 +42,21 @@ h2 {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding:30px;
-    
+    padding:50px;
+    gap: 40px;
+}
+
+.cosmology {
+    background: #E9D8A6;
+}
+
+.ecology {
+    background: var(--lightblue);
 }
 
 .special-events img {
    width: 100%;
-   border-radius: 20px 20px 0px 0px;
+   border-radius: 30px;
 
 }
 
@@ -59,16 +66,10 @@ i {
 
 .card-exibiton-info {
     background: var(--greenblue);
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 30px;
     padding:40px;
+    gap:10px;
     margin:0;
-    gap: 20px;
-}
-
-h1 {
-    font-size: 2em;
-    text-align: center;
-   
 }
 
 h2 {
@@ -77,31 +78,36 @@ h2 {
 
 p {
     font-weight:250;
-    margin-top: 10px;
 }
+
+.hero-get-invovled {
+    width: 100%;
+    background-image:url("/images/lab51.jpg") ;
+    height:400px;
+    background-size: cover; 
+    background-color: rgba(red); 
+    
+}
+
+
 
 
 @media screen and (min-width: 768px) {
 
 .special-events img {
-    width: 500px;
-    border-radius: 20px;
     
-}
-
-.card-exibiton-info {
-border-radius: 20px;
-
+    
 }
 
 .section-exhibtion {
     display:flex;
     flex-direction: row;
+    gap:90px;
     justify-content: center;
    
     padding: 50px;
     margin:0px;
-   gap: 20px;
+   
     
 }
 
@@ -111,36 +117,24 @@ border-radius: 20px;
 
 }
 
-.ecology {
-    display:flex;
-    flex-direction: row-reverse;
-}
-
 .card-exibiton-info {
     display:flex;
     flex-direction: column;
     width: 500px;
     background: var(--greenblue);
-    border-radius: 20px;
+    border-radius: 30px;
     padding:40px;
     gap:10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-}
-
-h1 {
-    margin:50px;
-    font-size: 5em;
 }
 
 h2 {
     font-family: var(--second-font);
 }
 
+
 }
 
 
 
 
-
-
-
+   
