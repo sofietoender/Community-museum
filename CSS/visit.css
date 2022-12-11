@@ -54,7 +54,6 @@ html {
    .section-cards {
     display:Flex;
     flex-direction: row;
-   
     flex-wrap: wrap;
     min-width: 400px;
     max-width: 1500px;
@@ -68,8 +67,11 @@ html {
   .card-visit-info {
     width: 350px;
     background: #005F73;
-    height: 400px;
-   margin:5px;
+    margin:5px;
+    padding:40px 20px;
+  
+  
+
    
    
   }
@@ -85,16 +87,16 @@ html {
     background: #0A9396;
  }			
 
- .cafe {
+ .Accessibility {
     background: #94D2BD;
  }
 
- .opening {
+ .shop {
     background: #94D2BD;
 
  }
 
- .contact {
+ .location{
     background: #0A9396;
 
  }
@@ -104,9 +106,7 @@ html {
     padding:50px;
     border-radius: 50%;
     text-align: center;
-    font-size: 50px;
-    margin: 20px 80px;
-     
+    font-size: 50px; 
  }
 
  p {
@@ -118,6 +118,10 @@ html {
     width: 100%;
  }
 
+ .card-icon {
+    display:flex;
+    justify-content: center;
+  }
 
 @media screen and (min-width: 768px) {
     .section-cards {
