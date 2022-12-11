@@ -58,6 +58,7 @@ html {
     min-width: 400px;
     max-width: 1500px;
     margin:20px;
+    border-radius: 20px;
 
     
    
@@ -69,17 +70,15 @@ html {
     background: #005F73;
     margin:5px;
     padding:40px 20px;
-  
-  
+    border-radius: 20px;
 
-   
-   
   }
 
   p {
     font-family: var(--second-font);
     font-size: 1px;
     font-weight: lighter;
+    
 
   }
 
