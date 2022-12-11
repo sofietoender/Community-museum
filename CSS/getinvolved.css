@@ -92,47 +92,7 @@ p {
 
 
 
-@media screen and (min-width: 768px) {
-
-.special-events img {
-    
-    
-}
-
-.section-exhibtion {
-    display:flex;
-    flex-direction: row;
-    gap:90px;
-    justify-content: center;
-   
-    padding: 50px;
-    margin:0px;
-   
-    
-}
-
-.cosmology {
-    display:flex;
-    flex-direction: row-reverse;
-
-}
-
-.card-exibiton-info {
-    display:flex;
-    flex-direction: column;
-    width: 500px;
-    background: var(--greenblue);
-    border-radius: 30px;
-    padding:40px;
-    gap:10px;
-}
-
-h2 {
-    font-family: var(--second-font);
-}
-
-
-}
+@media screen and (min-width: 768px) 
 
 
 

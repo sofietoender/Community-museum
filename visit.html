@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/visit.css" />
 		<link rel="stylesheet" href="css/footer.css" />
-		<i class="fa-regular fa-building-columns"></i>
+
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -21,6 +21,10 @@
 			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/170b674e86.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<header>
@@ -42,22 +46,15 @@
 			</nav>
 		</header>
 		<main>
-			<sectin class="hero">
-				<div class="astronaut-img"></div>
-				
-				<h1 class="visit-us">Visit us</h1>
-			</sectin>
-			<section class="text-visit">
-				<h2>Community Science museum</h2>
+			<section class="museum-info">
+			
+				<img src="images/boy-museum.jpg" class="boy-museum" />
 				<p>
 					Come join us at the Community Science Museum where we’re committed to
-					making science accessible to all. Over the course of human history,
-					science has developed from our early understanding of fire, wind,
-					water, and earth to exploring everything from galaxies far away to the
-					very building blocks of life itself. The aim of our museum is to
+					making science accessible to all.<br> The aim of our museum is to
 					create a space where everyone can experience the wonders of our
 					discoveries and perhaps even ignite a lifelong passion to continue the
-					exploration of the world around us. We believe science should not be
+					exploration of the world around us.We believe science should not be
 					confined to the textbook, but brought to live through exhibits. This
 					is why we have over 1000 different exhibits on the many varied
 					subjects of science to explore. Many of these exhibits are designed
@@ -66,44 +63,54 @@
 					when everyone’s gone home).
 				</p>
 			</section>
-			<div class="drop-down-menu">
-				<div class="åpningstider-styling1">
-					<input type="checkbox" id="menu-checkbox1" />
-					<label for="menu-checkbox1"
-						>Åpningstider<i class="fa-sharp fa-solid fa-sort-down"></i
-					></label>
-
-					<section class="mobilemenu1">
-						<p>Åpningstider</p>
-					</section>
+			<section class="section-cards">
+				<div class="card-visit-info admissin">
+					<i class="fa-solid fa-ticket"></i>
+					<h2>Admission</h2>
+					<p>The entrance is free for all.</p>
 				</div>
-				<div class="iconmenu">
-					<i class="fa-solid fa-circle-info"></i>
-					<div class="åpningstider-styling2">
-						<input type="checkbox" id="menu-checkbox2" />
-						<label for="menu-checkbox2"
-							>Openings hours<i class="fa-sharp fa-solid fa-sort-down"></i
-						></label>
-
-						<section class="mobilemenu2">
-							<p>Åpningstider2</p>
-						</section>
-					</div>
+				<div class="card-visit-info guided">
+					<i class="fa-solid fa-ticket"></i>
+					<h2>Guided Tours</h2>
+					<p>
+						There are guided tours of the museum that leave every hour. These
+						tours are 70 NOK per person and include a handy printed guide of the
+						museum. <br />If you would like to organize a guided tour for your
+						group of 6 or more people, please contact us to arrange the tour.
+					</p>
 				</div>
-
-				<div class="åpningstider-styling3">
-					<input type="checkbox" id="menu-checkbox3" />
-					<label for="menu-checkbox3"
-						><i class="fa-solid fa-utensils"></i>Spisesteder<i
-							class="fa-sharp fa-solid fa-sort-down"
-						></i
-					></label>
-
-					<section class="mobilemenu3">
-						<p>text here</p>
-					</section>
+				<div class="card-visit-info cafe">
+					<i class="fa-solid fa-universal-access"></i>
+					<h2>Accessibility</h2>
+					<p>
+						The museum has wheelchair accessibility ramps. It also has audio
+						guides and braille display signs for the visually impaired.
+					</p>
 				</div>
-			</div>
+				<div class="card-visit-info opening">
+					<i class="fa-solid fa-compass"></i>
+					<h2>Location</h2>
+
+					<p>Location The museum is located at Kjelsås</p>
+				</div>
+				<div class="card-visit-info">
+					<i class="fa-solid fa-cart-shopping"></i>
+					<h2>Shop</h2>
+					<p>
+						Our shop offers a range of memorabilia from the museum as well as
+						great gifts and activity packs that allow you to continue to explore
+						science even after you’ve left the museum.
+					</p>
+				</div>
+				<div class="card-visit-info contact">
+					<i class="fa-solid fa-utensils"></i>
+					<h2>Food and drink</h2>
+					<p>
+						There is a café attached to the museum where you can get light
+						lunches, soft drinks, coffee, snacks and more.
+					</p>
+				</div>
+			</section>
 		</main>
 
 		<footer>

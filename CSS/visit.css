@@ -29,11 +29,11 @@ html {
     --yellow: #E9D8A6;
 
 }
-   
 
    body {
     height: 100%;
     margin:0px;
+    
    }
 
    header {
@@ -41,7 +41,6 @@ html {
     padding:30px;
    }
 
-  
 
 
    h1 {
@@ -51,204 +50,99 @@ html {
    h2 {
     font-family: var(--second-font);
    }
-   .astronaut-img {
-    width:100%;
-    margin:0px 30px 0px 0px;
-    opacity: 90%;
-    position: relative;
-    z-index: -1;
-   }
 
-   .section-hero {
-    height:100%;
-    background-image: url("/images/astronaut.jpg");
-    background-size: cover;
-    height: 100%; }
-
-   .text-visit {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap:20px;
-   }
-
-   .text-visit h2 {
-    font-size: 3em;
-   }
-
-   .text-visit p {
-    margin:20px;
-    font-family: var(--second-font);
-   }
-
-   .visit-us {
-    position:relative;
-    top:-85px;
-    color:white;
-    text-align: center;
-    text-transform:uppercase;
-    font-size: 3em;
-    
-
-   }
-   
-
-.mobilemenu1,#menu-checkbox1 {
-    display:none;
-
-   }
-.menu-checkbox1 {
-    
-   
-   }
-
-.mobilemenu1 {
-    margin-left: 10px;
-    border-radius: 10px;
-    
-    
-}
-
-.mobilemenu2 {
-    margin-left: 10px;
-    border-radius: 10px;
-
-}
-
-.mobilemenu3 {
-    margin-left: 10px;   
-}
-
-#menu-checkbox1:checked ~ .mobilemenu1 {
-display:block;
-z-index: auto;
-margin-bottom: 30px;    
-   }
-
-.mobilemenu2,#menu-checkbox2 {
-    display:none;
-
-   }
-   
-   .menu-checkbox2 {
-    
-   }
-
- #menu-checkbox2:checked ~ .mobilemenu2 {
-    display:block;
-    z-index: auto;
-    background:var(--darkblue);
-    
-
-   }
-
-   .mobilemenu3,#menu-checkbox3 {
-    display:none;
-
-   }
-
-   .menu-checkbox3 {
-    
-    
-   }
-
-   #menu-checkbox3:checked ~ .mobilemenu3 {
-    display:block;
-    z-index: auto;
-    background:var(--darkblue);  
-    width: fit-content;
-    color:aliceblue;
-    font-size: 2em;
-
-   }
-
-  
-
-.åpningstider-styling {
-    display:flex;
-    justify-content: flex-end;
-
-}
-
-label {
-    display:flex;
-    justify-content: space-between;
-    padding: 10px;
-    display:flex;
-    align-items: center;
-    text-align: center;  
-}
-
-
-
-.drop-down-menu {
-    margin-left:40px;
-    margin-right: 40px;
-    display:flex;
-    flex-direction: column;
-    gap:30px;
-    min-width: 220px;
-    max-width: 620px;
-    
-    
-}
-
-.åpningstider-styling1 {
-   background:linear-gradient(90deg, rgba(148,210,189,1) 0%, rgba(10,147,150,1) 81%);
-}
-
-.åpningstider-styling2 {
-background:linear-gradient(90deg, rgba(148,210,189,1) 0%, rgba(10,147,150,1) 81%);
-width: 100%;
-
-}
-
-.åpningstider-styling3 {
-
-    background:none;
-    border: 2px solid var(--darkblue);
-    border-radius: 3px;
-/* background:linear-gradient(90deg, rgba(148,210,189,1) 0%, rgba(10,147,150,1) 81%); */
-
-}
-
- /* i {
-    background: var(--darkblue);
-    padding:20px;
-   color: white;
-   align-items: center;
-   position: relative;
-   z-index: auto;
-   
-} */
-
-.iconmenu {
-    display:flex;
+   .section-cards {
+    display:Flex;
     flex-direction: row;
-}
+   
+    flex-wrap: wrap;
+    min-width: 400px;
+    max-width: 1500px;
+    margin:20px;
 
-.fa-circle-info {
-    background:var(--darkblue);
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left:10px;
-    color:white;    
-}
+    
+   
+   }
+   
 
+  .card-visit-info {
+    width: 350px;
+    background: #005F73;
+    height: 400px;
+   margin:5px;
+   
+   
+  }
 
-.fa-sharp 
-.fa-solid 
-.fa-sort-down {
-    background: var(--darkblue);
-    padding:20px;
-   color: white;
-   align-items: center;
-   position: relative;
-   z-index: auto;
-}
+  p {
+    font-family: var(--second-font);
+    font-size: 1px;
+    font-weight: lighter;
+
+  }
+
+ .guided {
+    background: #0A9396;
+ }			
+
+ .cafe {
+    background: #94D2BD;
+ }
+
+ .opening {
+    background: #94D2BD;
+
+ }
+
+ .contact {
+    background: #0A9396;
+
+ }
+
+ .fa-solid {
+    background: white;
+    padding:50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 80px;
+     
+ }
+
+ p {
+    font-size: 18px;
+   
+ }
+
+ .boy-museum {
+    width: 100%;
+ }
 
 
 @media screen and (min-width: 768px) {
+    .section-cards {
+        
+        display:flex;
+        justify-content: center;
+        margin-top: 200px;
+       
+        
+    }
+
+    .boy-museum {
+       width: 500px;
+       min-width: 500px;
+     }
+
+     .museum-info {
+        display:flex;
+        margin: 40px;
+    
+     }
+
+    
+
+    
 
  
 }
