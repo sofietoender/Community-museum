@@ -117,6 +117,7 @@ html {
 
    .button-hero:hover {
     box-shadow: 6px 5px 5px var(--darkblue);
+    
    }
    
    .heading-special-events {
@@ -482,15 +483,18 @@ html {
     font-size: 1em;
     padding: 20px;
     margin-top:30px;
+    
    }
    
    .section-button {
+    margin:10px;
     transition: all .2s ease-in-out; 
-
+   
    }
 
    .section-button:hover {
     transform: scale(1.1); 
+   
 
    }
 
@@ -501,7 +505,7 @@ html {
    .night-museum:hover {
     transform: scale(1.1); 
    }
-
+  
    
 }
 
