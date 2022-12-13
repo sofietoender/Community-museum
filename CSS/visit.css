@@ -15,9 +15,6 @@ html {
     box-sizing: inherit;
     margin:0;
     overflow-x: hidden;
-
-    
-   
     
    }
 
@@ -138,12 +135,6 @@ html {
     
    
   }
-
-
- 
-
-
-
 @media screen and (min-width: 768px) {
    .all-cards {
       display:flex;
