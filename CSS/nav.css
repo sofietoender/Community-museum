@@ -75,6 +75,8 @@ html {
     top:15px;
     color:white;
     z-index: 6;
+    margin-right: 5px;
+    font-size: 1.5em;
    }
 
    .menu-checkbox {
