@@ -63,7 +63,7 @@ p {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 60px;
     text-align: center;
     margin:60px;
 }
@@ -101,6 +101,11 @@ img {
 margin:0px;
 min-width: 400px;
 width: 400px;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin:60px;
 }
 
 }

@@ -34,13 +34,6 @@ html {
     
    }
 
-   header {
-    background: var(--darkblue);
-    padding:30px;
-   }
-
-
-
    h1 {
     font-family: var(--main-font);
     color: var(--lightblue);
@@ -140,10 +133,8 @@ html {
       justify-content: center;
    }
     .section-cards {
-   
-        margin-top: 200px;
-        
-       
+      margin-top: 200px;
+           
     }
 
     .boy-museum {
@@ -153,17 +144,15 @@ html {
      }
 
      .museum-info {
-        display:flex;
-        gap:30px;
-        justify-content: center;
-        margin-top:50px;
-         flex-wrap: wrap;
-        
-     
+      display:flex;
+      gap:30px;
+      justify-content: center;
+      margin-top:50px;
+      flex-wrap: wrap;
+      
       }
        
     
-     }
 
      .card-visit-info {
         width: 400px;
