@@ -15,6 +15,7 @@ html {
     box-sizing: inherit;
     margin:0;
     overflow-x: hidden;
+
     
    
     
@@ -45,39 +46,53 @@ html {
 
    h1 {
     font-family: var(--main-font);
+    color: var(--lightblue);
+    font-size: 2em;
+
    }
 
    h2 {
     font-family: var(--second-font);
    }
 
+ 
+   .museum-info p {
+    width: 400px;
+   }
+
+  
+
    .section-cards {
     display:Flex;
     flex-direction: row;
     flex-wrap: wrap;
     min-width: 400px;
-    max-width: 1500px;
     margin:20px;
     border-radius: 20px;
-
-    
-   
+    max-width: 1380px;
    }
+
    
 
   .card-visit-info {
-    width: 350px;
+    width: 300px;
     background: #005F73;
     margin:5px;
-    padding:40px 20px;
+    
     border-radius: 20px;
+    padding-top:30px;
+    
 
   }
 
   p {
     font-family: var(--second-font);
-    font-size: 1px;
-    font-weight: lighter;
+    font-weight:100;
+   font-size: 18px;
+   margin-top: 5px;
+   
+
+
     
 
   }
@@ -102,19 +117,15 @@ html {
 
  .fa-solid {
     background: white;
-    padding:50px;
+    padding:40px;
     border-radius: 50%;
     text-align: center;
     font-size: 50px; 
  }
 
- p {
-    font-size: 18px;
-   
- }
-
  .boy-museum {
     width: 100%;
+    
  }
 
  .card-icon {
@@ -122,26 +133,55 @@ html {
     justify-content: center;
   }
 
+  .card-visit-text {
+    padding:30px;
+    
+   
+  }
+
+
+ 
+
+
+
 @media screen and (min-width: 768px) {
+   .all-cards {
+      display:flex;
+      justify-content: center;
+   }
     .section-cards {
-        
-        display:flex;
-        justify-content: center;
+   
         margin-top: 200px;
-       
         
+       
     }
 
     .boy-museum {
        width: 500px;
        min-width: 500px;
+       border-radius: 30px;
      }
 
      .museum-info {
         display:flex;
-        margin: 40px;
+        gap:30px;
+        justify-content: center;
+        margin-top:50px;
+         flex-wrap: wrap;
+        
+     
+      }
+       
     
      }
+
+     .card-visit-info {
+        width: 400px;
+        
+
+     }
+
+     
 
     
 
