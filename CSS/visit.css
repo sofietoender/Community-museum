@@ -87,11 +87,10 @@ html {
     font-weight:100;
    font-size: 18px;
    margin-top: 5px;
-   
+  }
 
-
-    
-
+  a:visited {
+   text-decoration: none;
   }
 
  .guided {
