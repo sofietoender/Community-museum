@@ -62,13 +62,50 @@ footer p{
     margin-bottom: 40px;
 }
 
+footer i {
+    color:white;
+    margin: 20px 10px;
+    font-size: 1.5em;
+
+}
+
+.social-media {
+    margin-left: 20px;
+}
+
+
 @media screen and (min-width: 768px) {
-    footer {
+    .footer-info {
       display:flex;
       flex-wrap: row;
+      
 
         
        }
+
+       footer i {
+        transition: all .2s ease-in-out; 
+        margin-bottom: 40px;
+       }
+
+       footer i:hover {
+        transform: scale(1.1); 
+        background:#005F73;
+        padding:10px;
+        border-radius: 50%;
+       
+    
+    }
+
+    footer {
+        position: relative;
+    
+    }
+
+    
+    
+
+     
     }
 
 

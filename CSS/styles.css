@@ -419,7 +419,16 @@ html {
         background: #94D2BD;
         border:none;
         padding: 20px 57px;
-        border-radius: 10px;}
+        border-radius: 10px;
+        transition: all .2s ease-in-out;
+        font-weight: 800;
+        margin:10px;
+     }
+
+     .donation-button:hover{
+        transform: scale(1.1); 
+    
+       }
 
     .button-placing-donation {
         display: flex;
@@ -524,8 +533,15 @@ html {
    .energica-museum:hover{
     transform: scale(1.1); 
    }
+
+   .donation-button{
+  
+    
+   }
    
-}
+   
+   }
+
 
 
 
