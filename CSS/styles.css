@@ -507,6 +507,23 @@ html {
     transform: scale(1.1); 
    }
   
+
+   .professor-visit {
+    transition: all .2s ease-in-out; 
+
+   }
+
+   .professor-visit:hover {
+    transform: scale(1.1); 
+
+   }
+
+   .energica-museum {
+    transition: all .2s ease-in-out; 
+   }
+   .energica-museum:hover{
+    transform: scale(1.1); 
+   }
    
 }
 

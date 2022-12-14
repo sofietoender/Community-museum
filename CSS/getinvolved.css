@@ -38,61 +38,85 @@ h2 {
     font-family: var(--second-font);
 }
 
-.section-exhibtion {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding:50px;
-    gap: 40px;
-}
-
-.cosmology {
-    background: #E9D8A6;
-}
-
-.ecology {
-    background: var(--lightblue);
-}
-
-.special-events img {
-   width: 100%;
-   border-radius: 30px;
-
-}
-
-i {
-    text-align: center;
-}
-
-.card-exibiton-info {
-    background: var(--greenblue);
-    border-radius: 30px;
-    padding:40px;
-    gap:10px;
-    margin:0;
-}
-
-h2 {
-    font-family: var(--main-font);
-}
-
 p {
     font-weight:250;
 }
 
-.hero-get-invovled {
+
+h1 {
+    font-size: 3em;
+    margin:40px;
+    text-align:center;
+}
+
+.section-get-involved {
+    background:#E9D8A6;
+    padding:30px;
+    margin:20px;
+    border-radius: 20px;
+   
+
+}
+
+.volunteer {
+    background: var(--lightblue);
+}
+
+.internship {
+    background: var(--greenblue);
+
+}
+
+img {
     width: 100%;
-    background-image:url("/images/lab51.jpg") ;
-    height:400px;
-    background-size: cover; 
-    background-color: rgba(red); 
+    border-radius: 30px;
+}
+
+h2 {
+    margin: 5px 0px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+.section-get-involved {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+  
+    
+   
+}
+
+.volunteer {
+flex-direction: row-reverse;
+}
+
+
+img {
+   width: 400px;
+   object-fit: contain;
+   flex: 1;
+margin-right:10px;
+ 
+}
+
+.get-involved-text {
+   width: 700px;
+   flex: 1;
+
+}
+
+.voluteneer-text {
+    margin-right: 20px;
     
 }
 
 
+}
 
 
-@media screen and (min-width: 768px) 
 
 
 
