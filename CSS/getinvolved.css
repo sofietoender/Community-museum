@@ -76,6 +76,90 @@ h2 {
     margin: 5px 0px;
 }
 
+form {
+    height: 100%;
+    overflow-x: none;
+
+}
+
+
+.form {
+    overflow-x: hidden;
+    gap:10px;
+    display:grid;
+    grid-template-areas:
+    "contactus contactus"
+    "firstname lastname"
+    "email email"
+    "message message"
+    "submit submit";
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr;
+    
+    border: solid 1px black;
+    
+    
+    border-radius: 10px;
+    margin:15px;
+    padding: 20px;
+    width: 400px;
+    
+    
+    
+
+}
+
+.lastname {
+    grid-area:lastname;
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.firstname {
+    grid-area:firstname;
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    
+
+}
+
+.email {
+    grid-area:email;
+   
+    border-radius: 2px;
+    border: 1px solid black;
+    
+}
+
+.contactus{
+    grid-area:contactus;
+    
+    
+    
+
+}
+
+.message {
+    grid-area: message;
+    height: 200px;
+   
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: var(--mainfont);
+   
+}
+
+.submit {
+grid-area: submit;
+border-radius: 5px;
+border: 1px solid black;
+background-color: var(--blue);
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -110,6 +194,7 @@ margin-right:10px;
 
 .voluteneer-text {
     margin-right: 20px;
+    max-width: 600px;
     
 }
 
