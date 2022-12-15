@@ -1,115 +1,98 @@
 :root {
-    --main-font:'Ubuntu', sans-serif;
-    --second-font:'roboto', sans-serif;
-    --darkblue: #005F73;
-    --lightblue:#0A9396;
-    --greenblue:#94D2BD;
-    --yellow: #E9D8A6;
-
-}
-
-html {
+    --main-font: "Ubuntu", sans-serif;
+    --second-font: "roboto", sans-serif;
+    --darkblue: #005f73;
+    --lightblue: #0a9396;
+    --greenblue: #94d2bd;
+    --yellow: #e9d8a6;
+  }
+  
+  html {
     height: 100%;
     width: 100%;
-    
+  
     box-sizing: border-box;
-    
-   }
-   html:focus-within {
+  }
+  html:focus-within {
     scroll-behavior: smooth;
-   }
-   *,
-   *::before,
-   *::after {
+  }
+  *,
+  *::before,
+  *::after {
     box-sizing: inherit;
-    margin:0; 
-}
-
-body {
+    margin: 0;
+  }
+  
+  body {
     height: 100%;
-    margin:0px;
-   }
-
-* {
+    margin: 0px;
+  }
+  
+  * {
     font-family: var(--second-font);
-}
-
-.kids-section {
-margin:40px;
-width: 300px;
-}
-
-
-
-.kids-section img {
+  }
+  
+  .kids-section {
+    margin: 40px;
+    width: 300px;
+  }
+  
+  .kids-section img {
     width: 300px;
     border-radius: 20px;
     margin-bottom: 0px;
-}
-.kids-text {
-
-    
-    background: #94D2BD;
-    padding:30px;
+  }
+  .kids-text {
+    background: #94d2bd;
+    padding: 30px;
     border-radius: 30px;
     margin-top: 0px;
-   
-
-}
-
-p {
+  }
+  
+  p {
     font-weight: 100;
     line-height: 1.5;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 60px;
     text-align: center;
-    margin:60px;
-}
-
-@media screen and (min-width: 768px) {
-
-    .all-cards{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-       
-    }
-
-.kids-section {
-    display:flex;
-   flex-direction:column;
-   margin-left:30px;
-   margin-right:30px;
-   width: 400px;
+    margin: 60px;
+  }
   
-
-}
-
-
-.kids-text {
-    display:flex;
-    flex-direction: column;
-    border-radius: 30px;
-    gap:5px;
-   
-
-}
-
-img {
-margin:0px;
-min-width: 400px;
-width: 400px;
-height:600px;
-
-
-}
-h1 {
-    font-size: 100px;
-    text-align: center;
-    margin:60px;
-}
-
-}
+  @media screen and (min-width: 768px) {
+    .all-cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    .kids-section {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+      margin-right: 30px;
+      width: 400px;
+    }
+  
+    .kids-text {
+      display: flex;
+      flex-direction: column;
+      border-radius: 30px;
+      gap: 5px;
+    }
+  
+    img {
+      margin: 0px;
+      min-width: 400px;
+      width: 400px;
+      height: 600px;
+    }
+    h1 {
+      font-size: 100px;
+      text-align: center;
+      margin: 60px;
+    }
+  }
+  

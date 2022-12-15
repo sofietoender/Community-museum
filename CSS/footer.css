@@ -1,115 +1,91 @@
-
 html {
     height: 100%;
-    
+  
     box-sizing: border-box;
-    
-   }
-   html:focus-within {
+  }
+  html:focus-within {
     scroll-behavior: smooth;
-   }
-   *,
-   *::before,
-   *::after {
+  }
+  *,
+  *::before,
+  *::after {
     box-sizing: inherit;
-    margin:0;
+    margin: 0;
     overflow-x: hidden;
-   
-    
-   }
-
-   :root {
-    --main-font:'Ubuntu', sans-serif;
-    --second-font:'roboto', sans-serif;
-    --darkblue: #005F73;
-    --lightblue:#0A9396;
-    --greenblue:#94D2BD;
-    --yellow: #E9D8A6;
-
-}
-   body {
+  }
+  
+  :root {
+    --main-font: "Ubuntu", sans-serif;
+    --second-font: "roboto", sans-serif;
+    --darkblue: #005f73;
+    --lightblue: #0a9396;
+    --greenblue: #94d2bd;
+    --yellow: #e9d8a6;
+  }
+  body {
     height: 100%;
-    margin:0px;
-   }
-
-
-footer {
-font-family:var(--second-font);
-background:#231F20;
-padding-top: 30px;
-margin-top:60px;
-}
-
-h3 {
+    margin: 0px;
+  }
+  
+  footer {
+    font-family: var(--second-font);
+    background: #231f20;
+    padding-top: 30px;
+    margin-top: 60px;
+  }
+  
+  h3 {
     font-weight: bold;
     margin: 10px 30px;
     font-size: 1.3em;
-    color:white;   
-}
-
-footer p{
+    color: white;
+  }
+  
+  footer p {
     margin: 0px 30px;
     line-height: 1.5;
     font-weight: lighter;
-    color:white;
-}
-
-.entry {
+    color: white;
+  }
+  
+  .entry {
     margin-bottom: 40px;
-}
-
-.openings-hours {
+  }
+  
+  .openings-hours {
     margin-bottom: 40px;
-}
-
-footer i {
-    color:white;
+  }
+  
+  footer i {
+    color: white;
     margin: 20px 10px;
     font-size: 1.5em;
-
-}
-
-.social-media {
+  }
+  
+  .social-media {
     margin-left: 20px;
-}
-
-
-@media screen and (min-width: 768px) {
+  }
+  
+  @media screen and (min-width: 768px) {
     .footer-info {
-      display:flex;
+      display: flex;
       flex-wrap: row;
-      
-
-        
-       }
-
-       footer i {
-        transition: all .2s ease-in-out; 
-        margin-bottom: 40px;
-       }
-
-       footer i:hover {
-        transform: scale(1.1); 
-        background:#005F73;
-        padding:10px;
-        border-radius: 50%;
-       
-    
     }
-
+  
+    footer i {
+      transition: all 0.2s ease-in-out;
+      margin-bottom: 40px;
+    }
+  
+    footer i:hover {
+      transform: scale(1.1);
+      background: #005f73;
+      padding: 10px;
+      border-radius: 50%;
+    }
+  
     footer {
-        position: relative;
-    
+      position: relative;
     }
-
-    
-    
-
-     
-    }
-
-
-
-
-
-
+  }
+  
