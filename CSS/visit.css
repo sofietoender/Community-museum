@@ -38,6 +38,7 @@ html {
     font-family: var(--main-font);
     color: var(--lightblue);
     font-size: 2em;
+    margin:20px;
 
    }
 
@@ -47,7 +48,8 @@ html {
 
  
    .museum-info p {
-    width: 400px;
+    
+    margin:20px;
    }
 
   
@@ -123,7 +125,7 @@ html {
   }
 
   .card-visit-text {
-    padding:30px;
+   padding:30px;
     
    
   }
@@ -145,13 +147,15 @@ html {
 
      .museum-info {
       display:flex;
-      gap:30px;
+      flex-direction: row;
       justify-content: center;
-      margin-top:50px;
-      flex-wrap: wrap;
-      
+      margin:20px;
+   
       }
        
+      .museum-joinus {
+         width:400px;
+      }
     
 
      .card-visit-info {

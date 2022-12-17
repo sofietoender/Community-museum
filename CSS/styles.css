@@ -87,10 +87,7 @@ html {
     font-size: 0.5em;
     font-weight: bolder;
   }
-  
-  .button-hero:hover {
-    box-shadow: 6px 5px 5px var(--darkblue);
-  }
+
   
   .heading-special-events {
     font-family: var(--main-font);
@@ -414,8 +411,17 @@ html {
       background: #ffffff;
       font-size: 1em;
       padding: 20px;
-      margin-top: 30px;
+      margin: 30px;
+      transition: all 0.2s ease-in-out;
     }
+    .section-button {
+        margin: 10px;
+        transition: all 0.2s ease-in-out;
+      }
+    
+      .button-hero:hover {
+        transform: scale(1.1);
+      }
   
     .section-button {
       margin: 10px;

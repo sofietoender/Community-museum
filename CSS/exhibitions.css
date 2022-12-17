@@ -31,7 +31,7 @@
     height: 100%;
     margin: 0px;
   }
-  
+    
   h2 {
     font-family: var(--second-font);
   }
@@ -41,6 +41,8 @@
     flex-direction: column;
     justify-content: center;
     padding: 30px;
+    margin:20px;
+  
   }
   
   .special-events img {
