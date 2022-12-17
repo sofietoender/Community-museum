@@ -304,6 +304,8 @@ html {
       margin-bottom: 70px;
       max-width: 100%;
     }
+
+    /* Link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items */
   
     .section-card-night {
       flex: 1 1 0px;

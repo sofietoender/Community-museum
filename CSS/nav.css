@@ -13,6 +13,8 @@ html:focus-within {
   margin: 0;
 }
 
+/* Link to root:https://developer.mozilla.org/en-US/docs/Web/CSS/:root*/
+
 :root {
   --main-font: "Ubuntu", sans-serif;
   --second-font: "roboto", sans-serif;
@@ -37,13 +39,7 @@ h2 {
 }
 
 header {
-  /* background: linear-gradient(
-        to right, 
-        #ffffff 0%, 
-        #ffffff 50%, 
-        #94D2BD 50%, 
-        #94D2BD 100%
-      ); */
+  
   background: var(--darkblue);
 
   display: flex;
@@ -53,6 +49,10 @@ header {
 .logo:visited {
   color: #ffffff;
 }
+
+/* Link to Hamburger menu:https://noroff-content.gitlab.io/feu/html-css/navigation.html*/
+
+/* Link to animations:https://www.w3schools.com/css/css3_transitions.asp*/
 
 .desktop-nav {
   display: none;
@@ -137,6 +137,9 @@ header {
   nav a:hover {
     color: var(--greenblue);
   }
+
+  /* Gradient underline when hovering. Author: Michelle Barker
+  link: https://css-irl.info/animating-underlines/*/
 
   nav a::before {
     content: "";
