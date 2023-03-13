@@ -133,10 +133,12 @@ html {
    .all-cards {
       display:flex;
       justify-content: center;
+      align-items: center;
    }
     .section-cards {
       margin-top: 200px;
-           
+      display: flex;
+      justify-content: center;
     }
 
     .boy-museum {
