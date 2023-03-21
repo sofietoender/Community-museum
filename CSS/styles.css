@@ -297,7 +297,6 @@ html {
     .special-events {
       display: flex;
       flex-direction: row;
-      width: auto;
       justify-content: space-between;
       gap: 20px;
       margin: 20px;
