@@ -125,5 +125,9 @@
     h2 {
       font-family: var(--second-font);
     }
+
+    .exhibitions{
+      text-decoration: underline;
+    }
   }
   

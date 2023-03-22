@@ -50,7 +50,7 @@
     background: #e9d8a6;
     padding: 30px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
   }
   
   .volunteer {
@@ -67,7 +67,7 @@
   
   img {
     width: 100%;
-    border-radius: 30px;
+    border-radius: 8px;
   }
   
   h2 {
@@ -97,7 +97,7 @@
     margin: 20px;
     padding: 20px;
     font-family: var(--second-font);
-    background: var(--lightblue);
+    
 }
     
 
@@ -107,6 +107,7 @@
   
     border-radius: 5px;
     border: 1px solid black;
+    padding:10px;
   }
   
   .firstname {
@@ -196,6 +197,9 @@
     .contact-museum-text {
     margin:30px;
     font-size: 2em;
+    }
+    .get-involved {
+      text-decoration: underline;
     }
   }
   
