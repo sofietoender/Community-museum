@@ -44,6 +44,7 @@ html {
 
    h2 {
     font-family: var(--second-font);
+    color:#282828;
    }
 
  
@@ -69,18 +70,18 @@ html {
 
   .card-visit-info {
     width: 300px;
-    background: #005F73;
+    background: #E9D8A6;
     margin:5px;
-    
     border-radius: 20px;
     padding-top:30px;
+ 
     
 
   }
 
   p {
     font-family: var(--second-font);
-    font-weight:100;
+    font-weight:300;
    font-size: 18px;
    margin-top: 5px;
   }
@@ -90,20 +91,20 @@ html {
   }
 
  .guided {
-    background: #0A9396;
+    background: #94D2BD;
  }			
 
  .Accessibility {
-    background: #94D2BD;
+    background:  #0A9396;
  }
 
  .shop {
-    background: #94D2BD;
+    background:#0A9396;
 
  }
 
  .location{
-    background: #0A9396;
+    background: #94D2BD;;
 
  }
 
