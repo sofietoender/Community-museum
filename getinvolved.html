@@ -122,32 +122,30 @@
 				</div>
 			</section>
 
-			<section>
+		
+
+			<div class="container">
 				<h2 class="contact-museum-text">
-					Do you want to support the Museum? Use the contact form
+					Love to hear from you, Get in touch 👋
 				</h2>
-				<form id="supportcontact">
-					<div class="form">
-						<p class="contactus">Contact us</p>
-						<input type="text" placeholder="First name" class="firstname" />
-						<input type="text" placeholder="Last name" class="lastname" />
-						<input type="email" placeholder="Email adress" class="email" />
-						<textarea
-							id="message"
-							name="message"
-							placeholder="Write a message here"
-							class="message"
-						></textarea>
-						<input
-							type="submit"
-							name="Send_now"
-							id="send_now"
-							value="Send now"
-							class="submit"
-						/>
-					</div>
+				<form action="action_page.php">
+			  
+				  <label for="fname">First Name</label>
+				  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			  
+				  <label for="lname">Last Name</label>
+				  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				  <label for="email">Email</label>
+				  <input type="email" id="email" name="email" placeholder="Your email">
+			  
+				  <label for="subject">Subject</label>
+				  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			  
+				  <input type="submit" value="Submit">
+			  
 				</form>
-			</section>
+			  </div>
 		</main>
 
 		<footer>

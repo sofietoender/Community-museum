@@ -71,94 +71,50 @@
   }
   
   h2 {
-    margin: 5px 0px;
+    text-align: center;
   }
   
-  form {
-    height: 100%;
-    overflow-x: none;
-  }
-  
-  .form {
-    overflow-x: hidden;
-    gap: 10px;
-    display: grid;
-    grid-template-areas:
-      "contactus contactus"
-      "firstname lastname"
-      "email email"
-      "message message"
-      "submit submit";
-  
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    border: solid 1px black;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
-    font-family: var(--second-font);
-    
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  margin:auto;
 }
-    
 
-  
-  .lastname {
-    grid-area: lastname;
-  
-    border-radius: 5px;
-    border: 1px solid black;
-    padding:10px;
-  }
-  
-  .firstname {
-    grid-area: firstname;
-  
-    border-radius: 5px;
-    border: 1px solid black;
-  }
-  
-  .email {
-    grid-area: email;
-  
-    border-radius: 2px;
-    border: 1px solid black;
-  }
-  
-  .contactus {
-    grid-area: contactus;
-  }
-  
-  .message {
-    grid-area: message;
-    height: 200px;
-  
-    border-radius: 5px;
-    border: 1px solid black;
-    font-family: var(--mainfont);
-  }
-  
-  .submit {
-    grid-area: submit;
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: var(--blue);
-    margin:auto;
-    padding:5px 15px;
-    background:#94d2bd;
-  }
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  .contact-museum-text {
-    margin:30px;
-    
-    }
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
 
-    .submit:hover {
-        background: var(--yellow);
-    }
-
-
-       
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
   
+}
+
+form {
+  margin:auto;
+}
+  
+
   @media screen and (min-width: 768px) {
     .section-get-involved {
       display: flex;
@@ -189,10 +145,7 @@
       margin-right: 20px;
     }
 
-    .form {
-        max-width: 600px;
-        margin:auto;
-    }
+    
 
     .contact-museum-text {
     margin:30px;
@@ -200,6 +153,19 @@
     }
     .get-involved {
       text-decoration: underline;
+    }
+
+    form {
+      max-width: 700px;
+    }
+
+    .submit-button {
+      max-width: 100px;
+      margin:auto;
+    }
+
+    fieldset {
+     
     }
   }
   
