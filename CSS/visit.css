@@ -39,7 +39,6 @@ html {
     color: var(--lightblue);
     font-size: 2em;
     margin:20px;
-
    }
 
    h2 {
@@ -48,8 +47,7 @@ html {
    }
 
  
-   .museum-info p {
-    
+   .museum-info p { 
     margin:20px;
    }
 
@@ -74,9 +72,6 @@ html {
     margin:5px;
     border-radius: 20px;
     padding-top:30px;
- 
-    
-
   }
 
   p {
@@ -84,6 +79,7 @@ html {
     font-weight:300;
    font-size: 18px;
    margin-top: 5px;
+   line-height: 1.5;
   }
 
   a:visited {
@@ -100,12 +96,10 @@ html {
 
  .shop {
     background:#0A9396;
-
  }
 
  .location{
     background: #94D2BD;;
-
  }
 
  .fa-solid {
@@ -117,8 +111,7 @@ html {
  }
 
  .boy-museum {
-    width: 100%;
-    
+    width: 100%;   
  }
 
  .card-icon {
@@ -164,21 +157,11 @@ html {
 
      .card-visit-info {
         width: 400px;
-        
-
      }
 
      .visit {
       text-decoration: underline;
-     }
-
-     
-
-    
-
-    
-
- 
+     } 
 }
 
 

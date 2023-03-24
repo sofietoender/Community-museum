@@ -48,9 +48,9 @@
   
   .section-get-involved {
     background: #e9d8a6;
-    padding: 30px;
+    padding: 60px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 6px;
   }
   
   .volunteer {
@@ -67,7 +67,7 @@
   
   img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 2px;
   }
   
   h2 {
@@ -88,7 +88,7 @@ input[type=text],input[type=email], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+.submit-button {
   background-color: #04AA6D;
   color: white;
   padding: 12px 20px;
@@ -98,7 +98,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+.submit-button:hover {
   background-color: #45a049;
 }
 
@@ -159,13 +159,6 @@ form {
       max-width: 700px;
     }
 
-    .submit-button {
-      max-width: 100px;
-      margin:auto;
-    }
-
-    fieldset {
-     
-    }
+  
   }
   
