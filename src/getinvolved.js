@@ -7,6 +7,7 @@ const messageEl = document.querySelector("#message");
 const nameError = document.querySelector("#js-name-error");
 const emailError = document.querySelector("#js-email-error");
 const messageError = document.querySelector("#js-subject-error");
+const lnameError = document.querySelector("#js-lname-error");
 
 formEl.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -47,15 +48,28 @@ formEl.addEventListener("submit", (event) => {
 
 
 nameEl.addEventListener("blur", (event) => {
-  const name = event.target.value.trim();
+  const lname = event.target.value.trim();
 
   const minLengthRegex = /^[a-zA-Z]{2,}/;
 
-  if (!minLengthRegex.test(name)) {
+  if (!minLengthRegex.test(lname)) {
     nameError.innerHTML =
       "Name must be at least 2 characters long and must be letters only";
   } else {
     nameError.innerHTML = "";
+  }
+});
+
+lastNameEl.addEventListener("blur", (event) => {
+  const lname = event.target.value.trim();
+
+  const minLengthRegex = /^[a-zA-Z]{2,}/;
+
+  if (!minLengthRegex.test(lname)) {
+    lnameError.innerHTML =
+      "Last name must be at least 2 characters long and must be letters only";
+  } else {
+    lnameError.innerHTML = "";
   }
 });
 

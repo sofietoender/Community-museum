@@ -40,10 +40,14 @@ h2 {
 
 header {
   
-  background: var(--darkblue);
+  background: rgba(0, 95, 115, 1);
 
   display: flex;
   justify-content: space-between;
+  position:fixed;
+  width: 100%;
+  z-index: 2;
+  
 }
 
 .logo:visited {
