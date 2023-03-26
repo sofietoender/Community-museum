@@ -49,6 +49,11 @@ html {
  
    .museum-info p { 
     margin:20px;
+    
+   }
+
+   .museum-info {
+      margin-top:100px;
    }
 
   

@@ -42,15 +42,12 @@
   
   h1 {
     font-size: 3em;
-    margin: 40px;
+    margin: 120px;
     text-align: center;
   }
   
   .section-get-involved {
-    background: #e9d8a6;
-    padding: 60px;
-    margin: 20px;
-    border-radius: 6px;
+    
   }
   
   .volunteer {
@@ -63,16 +60,29 @@
   
   .get-involved-text {
     line-height: 1.5;
+   
+  }
+
+  .get-involved-text .volunteer {
+    line-height: 1.5;
+    background:#0a9396;
+     
   }
   
   img {
-    width: 100%;
-    border-radius: 2px;
+    width: 50%;
+   
+  }
+
+  .support {
+    background: var(--yellow);
+  }
+
+  .cards {
+    margin:30px;
   }
   
-  h2 {
-    text-align: center;
-  }
+
   
   /* Style inputs with type="text", select elements and textareas */
 input[type=text],input[type=email], select, textarea {
@@ -119,7 +129,8 @@ form {
     .section-get-involved {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      
+      
     }
   
     .volunteer {
@@ -127,29 +138,55 @@ form {
     }
   
     img {
-      width: 400px;
-      object-fit: contain;
-      flex: 1;
-      margin-right: 10px;
+      width: 1200px;
+      height: 500px;
+    
+      
     }
   
     .get-involved-text {
-      width: 300px;
-      margin-left: 20px;
-      flex-grow: 1;
-      max-width: 500px;
+  
+      width: 50%;
+      padding: 30px;
+      display:flex;
+   justify-content: center;
+    flex-direction: column;
+  
+    }
+
+    .get-involved-text .volunteer {
+      line-height: 1.5;
+      background: #0a9396;
+       
+    }    
+
+    h2 {
+      font-size: 2rem;
+      
+    }
+
+    p {
+      
+      font-weight: 300;
+
+    }
+
+    .get-involved-text {
+      width: 1150px;
     }
   
     .volunteer-text {
       margin-left: 0px;
       margin-right: 20px;
+      
     }
 
     
 
     .contact-museum-text {
-    margin:30px;
+    margin:50px;
     font-size: 2em;
+    text-align: center;
     }
     .get-involved {
       text-decoration: underline;
