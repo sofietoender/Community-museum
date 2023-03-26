@@ -46,10 +46,6 @@
     text-align: center;
   }
   
-  .section-get-involved {
-    
-  }
-  
   .volunteer {
     background: var(--lightblue);
   }
@@ -65,9 +61,10 @@
 
   .get-involved-text .volunteer {
     line-height: 1.5;
-    background:#0a9396;
-     
+    background:#0a9396;   
+    
   }
+
   
   img {
     width: 50%;
@@ -84,20 +81,20 @@
   
 
   
-  /* Style inputs with type="text", select elements and textareas */
+ 
 input[type=text],input[type=email], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical; 
   margin:auto;
 }
 
-/* Style the submit button with a specific background color etc */
+
 .submit-button {
   background-color: #04AA6D;
   color: white;
@@ -107,12 +104,12 @@ input[type=text],input[type=email], select, textarea {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 .submit-button:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -128,9 +125,7 @@ form {
   @media screen and (min-width: 768px) {
     .section-get-involved {
       display: flex;
-      flex-direction: row;
-      
-      
+      flex-direction: row;   
     }
   
     .volunteer {
@@ -140,8 +135,6 @@ form {
     img {
       width: 1200px;
       height: 500px;
-    
-      
     }
   
     .get-involved-text {
@@ -161,8 +154,7 @@ form {
     }    
 
     h2 {
-      font-size: 2rem;
-      
+      font-size: 2rem;  
     }
 
     p {
