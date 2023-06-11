@@ -13,6 +13,8 @@ An interactive science museum called the Community Science Museum is opening in 
 ### Installing
 1. Clone the repo:
 
+[ ]
+
 ### Running
 Using the liveServer extension for VScode:
 
