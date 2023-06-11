@@ -10,10 +10,10 @@ An interactive science museum called the Community Science Museum is opening in 
 
 # Getting Started
 
-Installing
-Clone the repo:
-git clone git@github.com:InfiAest/CommunityScienceMuseum.git
-Running
+### Installing
+1. Clone the repo:
+
+### Running
 Using the liveServer extension for VScode:
 
 Right click on the index.html and click view in live server. This will open http://localhost:3000 in your browser where you can see the result.
